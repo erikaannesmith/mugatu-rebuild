@@ -1,0 +1,7 @@
+<%= form_for current_user do |f| %>
+  <%= f.label 'Identify your role' %>
+  <%= f.select :role, ['designer', 'producer'] %>
+
+  <%= f.submit 'Submit information' %>
+
+<% end %>
